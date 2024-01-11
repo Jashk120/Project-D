@@ -12,9 +12,12 @@ function Layout() {
         
     
 
-      <Header/>
-      <Outlet />
-      <Footer />
+<div className="min-h-screen bg-black bg-opacity-80">
+  <Header />
+  <Outlet />
+  <Footer />
+</div>
+
     
     </>
   );

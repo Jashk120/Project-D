@@ -15,7 +15,7 @@ function Header() {
 
   return (
     <>
-    <header className='bg-black bg-opacity-80  sticky z-50 top-0'>
+    <header className='  sticky z-50 top-0'>
         
     <nav className=' flex h-24 justify-center'>
 
