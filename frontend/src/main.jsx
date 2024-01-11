@@ -5,7 +5,8 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import Layout from './Layout.jsx'
 import Home from './Components/Home/Home.jsx'
 import Entries from './Components/Entries/Entries.jsx'
-import Register from './Components/Register/Register.jsx'
+import SignUp from './Components/SignUp/SignUp.jsx'
+import Register from './Components/SignUp/Register/Register.jsx'
 
 
 

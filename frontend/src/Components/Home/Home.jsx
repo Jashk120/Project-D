@@ -8,9 +8,9 @@ const Home = () => {
 
   return (
     <>
-  <div  >
+  <div className='justify-center self-center mt-32' >
    
-      <h1 className="text-white text-center font-anonymous text-6xl font-normal text-normal leading-normal">
+      <h1 className="text-white text-center font-pro text-6xl font-normal text-normal leading-normal">
         Welcome to <br />
         <b>Dubbewar & Associates</b>
       </h1>

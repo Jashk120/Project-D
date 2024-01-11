@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+      
       backgroundImage: {
         'hero': "url(./src/assets/BackGround.webp)",
       },
