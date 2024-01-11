@@ -35,7 +35,7 @@ function Header() {
                     to="/"
                     onClick={handleHomeClick}
                     className={({isActive}) =>
-                    ` block py-2 pr-4 pl-3  font-anonymous text-3xl text-normal  font-normal leading-normal duration-200 ${isActive ? "text-yellow-c" : "text-gray-h"} `
+                    ` block py-2 pr-4 pl-3 hover:text-yellow-c font-anonymous text-3xl text-normal  font-normal leading-normal duration-200 ${isActive ? "text-yellow-c" : "text-gray-h"} `
                     }
                     aria-current="page"
                 >
@@ -43,7 +43,7 @@ function Header() {
                     
                         <NavLink
                         to="/"
-                         className={({isActive}) =>`absolute top-2/3 left-1/2 ${isActive? "border-2 border-yellow-500 bg-black rotate-45": "bg-transparent"} transform -translate-x-1/2 w-2 h-2  `} />
+                         className={({isActive}) =>`absolute top-2/3 hover:border-yellow-500 hover:border-2 left-1/2 duration-200 ${isActive? "border-2 border-yellow-500 bg-black  rotate-45 w-2.5 h-2.5": "bg-transparent   rotate-45 w-2 h-2"} transform -translate-x-1/2   `} />
                     
                 </NavLink>
                     
@@ -61,7 +61,7 @@ function Header() {
                     
                         <NavLink
                         to="/entries"
-                         className={({isActive}) =>`absolute top-2/3 left-1/2 ${isActive? "border-2 border-yellow-500 bg-black rotate-45": "bg-transparent"} transform -translate-x-1/2 w-2 h-2 mt-1 `} />
+                         className={({isActive}) =>`absolute top-2/3 hover:border-yellow-500 hover:border-2 left-1/2 duration-200 ${isActive? "border-2 border-yellow-500 bg-black  rotate-45 w-2.5 h-2.5": "bg-transparent   rotate-45 w-2 h-2"} transform -translate-x-1/2   `} />
                     
                 </NavLink>
                     
@@ -79,7 +79,7 @@ function Header() {
                     
                         <NavLink
                         to="/api/register"
-                         className={({isActive}) =>`absolute top-2/3 left-1/2 ${isActive? "border-2 border-yellow-500 bg-black rotate-45": "bg-transparent"} transform -translate-x-1/2 w-2 h-2 mt-1 `} />
+                         className={({isActive}) =>`absolute top-2/3 hover:border-yellow-500 hover:border-2 left-1/2 duration-200 ${isActive? "border-2 border-yellow-500 bg-black  rotate-45 w-2.5 h-2.5": "bg-transparent   rotate-45 w-2 h-2"} transform -translate-x-1/2   `} />
                     
                 </NavLink>
                     
